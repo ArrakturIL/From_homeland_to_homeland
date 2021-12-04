@@ -1,0 +1,11 @@
+.intro__container {
+    width: 785px;
+   /* display: grid;
+    grid-template-columns: 785px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'title .'
+        'quote .'
+        'author .'
+        'paragraph .';*/
+}

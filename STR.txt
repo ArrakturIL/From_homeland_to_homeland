@@ -1,0 +1,80 @@
+/blocks
+         
+        /header
+            header.css
+            /__logo
+                header__logo.css
+            /__title
+                header__title.css
+            /__subtitle
+                header__subtitle.css
+            /__image
+                header__image.css
+        
+        /main
+            main.css
+        
+        /intro
+            intro.css
+            /__container
+                intro__container.css
+            /__title
+                intro__title.css
+            /__quote
+                intro__quote.css
+            /__quott-author
+                intro__quote-author.css
+            /__paragraph
+                intro__paragraph.css
+
+        /photo-grid
+            photo-grid.css
+            /__image
+                photo-grid__image.css
+        
+        /places
+            places.css
+
+        /place
+            place.css
+        /__title
+            place__title.css
+        /__author
+            place__author.css
+        /__author-title
+            place__author-title.css
+        /__author-name
+            place__author-name.css
+        /__button
+            place__button.css
+        /__image
+            place__image.css
+        /__description
+            place__description.css
+        /__paragraph
+            place__paragraph.css
+        
+        /artst
+            artst.css
+            /__heading
+                artst__heading.css
+            /__info
+                artst__info.css
+        
+        /cover
+            cover.css
+            /__overlay
+                cover__overlay.css
+            /__background
+                cover__background.css
+            /__title
+                cover__title.css
+            /__subtitle
+                cover__subtitle.css
+            /__button
+                cover__button.css
+        
+        /footer
+            footer.css
+            /__copyright
+                footer__copyright.css
