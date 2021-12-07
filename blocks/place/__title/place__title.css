@@ -9,3 +9,14 @@
     margin: 0;
     text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 110%;
+        color: #FFFFFF;
+    }
+}

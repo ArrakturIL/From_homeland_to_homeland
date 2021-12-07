@@ -3,3 +3,9 @@
     height: 70px;
     align-self: center;
 }
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        padding-bottom: 90px;
+    }
+}

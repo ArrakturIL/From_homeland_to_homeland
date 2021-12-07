@@ -8,6 +8,17 @@
         "button paragraph";
 }
 
-.place:nth-of-type(-n+4) {
+.place:nth-of-type(-n+3) {
     margin: 0 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+        grid-template-columns: 340px max-content;
+        grid-auto-rows: min-content fit-content(100%);
+    }
+    .place:last-of-type {
+        margin-top: 80px;
+    }
 }

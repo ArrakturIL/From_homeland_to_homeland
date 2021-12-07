@@ -3,3 +3,9 @@
     flex-direction: column;
     padding: 0 48px;
 }
+
+@media screen and (max-width: 768px) {
+    .content{
+        padding: 0;
+    }
+}

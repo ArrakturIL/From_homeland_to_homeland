@@ -7,3 +7,9 @@
     text-align: center;
     margin: 0 0 64px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__subtitle {
+        margin: 0 24px 64px;
+    }
+}

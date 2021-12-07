@@ -3,3 +3,10 @@
     max-height: 213px;
     object-fit: cover;
 }
+
+@media screen and (max-width:768px) {
+    .photo-grid__image {
+        min-width: 352px;
+        min-height: 264px;
+    } 
+}

@@ -8,3 +8,10 @@
     color: #fff;
     font-family: 'inter', Arial, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .page {
+        min-width: 768px;
+        margin: 0;
+    }
+}
