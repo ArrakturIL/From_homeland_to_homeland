@@ -14,3 +14,11 @@
         max-width: 352px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__author {
+        max-width: 288px;
+        grid-area: author;
+        margin: 0 16px;
+    }
+}

@@ -9,3 +9,11 @@
     max-width: 720px;
     grid-area: author;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__quote-author {
+        font-size: 24px;
+        line-height: 142%;
+        max-width: 288px;
+    }
+}

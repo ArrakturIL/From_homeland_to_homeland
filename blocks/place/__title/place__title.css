@@ -20,3 +20,12 @@
         color: #FFFFFF;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 109%;
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}

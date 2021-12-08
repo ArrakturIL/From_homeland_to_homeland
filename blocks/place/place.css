@@ -22,3 +22,23 @@
         margin-top: 80px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 320px;
+        grid-template-rows: 35px 67px 320px;
+        grid-gap: 30px;
+        grid-template-areas: 
+        'title'
+        'author'
+        'img'
+        'paragraph'
+        'button';
+    } 
+    .place:nth-of-type(-n+3) {
+        margin: 0 0 50px 0;
+    }
+    .place:last-of-type {
+        margin-top: 50px;
+    }
+}

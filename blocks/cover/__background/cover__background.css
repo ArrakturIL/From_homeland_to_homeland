@@ -19,6 +19,18 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-      
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        max-width: 320px;
+        max-height: 254px;
+        background-image: url(../../../images/cover-background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
     }
 }
