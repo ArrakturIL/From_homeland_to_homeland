@@ -9,7 +9,12 @@
     .header {
         max-width: 720px;
         align-self: center;
-        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 425px;
     }
 }
 

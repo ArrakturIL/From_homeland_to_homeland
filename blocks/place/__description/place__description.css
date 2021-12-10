@@ -2,6 +2,14 @@
     grid-row: span 3;
 }
 
+@media screen and (max-width: 425px) {
+    .place__description {
+       /* grid-row: span 3;*/
+       max-width: 320px;
+       grid-area: paragraph;
+       margin: 0 16px;
+    }   
+}
 
 @media screen and (max-width: 320px) {
     .place__description {

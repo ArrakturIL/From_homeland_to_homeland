@@ -10,6 +10,12 @@
     grid-area: author;
 }
 
+@media screen and (max-width:425px) {
+    .intro__quote-author {
+        max-width: 415px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .intro__quote-author {
         font-size: 24px;

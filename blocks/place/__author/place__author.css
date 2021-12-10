@@ -15,6 +15,13 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .place__author {
+        max-width: 320px;
+        grid-area: author;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__author {
         max-width: 288px;

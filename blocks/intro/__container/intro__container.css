@@ -1,13 +1,12 @@
 .intro__container {
-    width: 785px;
-    /* display: grid;
-    grid-template-columns: 785px 1fr;
-    grid-template-rows: auto;
+    max-width: 785px;
+    display: grid;
+    grid-template-columns: 785px;
     grid-template-areas:
-        'title .'
-        'quote .'
-        'author .'
-        'paragraph .';*/
+        'title'
+        'quote'
+        'author'
+        'paragraph';
 }
 
 @media screen and (max-width: 768px) {
@@ -16,10 +15,16 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .intro__container {
+        max-width: 415px;
+        margin: 0 auto;
+    }    
+}
 
 @media screen and (max-width: 320px) {
     .intro__container {
-        max-width: 320px;
+        max-width: 100vw;
         align-self: center;
     }   
 }

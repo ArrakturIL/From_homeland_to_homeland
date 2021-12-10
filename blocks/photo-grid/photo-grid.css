@@ -14,7 +14,14 @@
         grid-template-columns: repeat(2, 352px);
         justify-content: center;
     }
+}
 
+@media screen and (max-width:425px) {
+    .photo-grid {
+        max-width: 425px;
+        grid-template-columns: 352px;
+        grid-template-rows: repeat(8, 1fr);
+    }
 }
 
 @media screen and (max-width: 320px) {
