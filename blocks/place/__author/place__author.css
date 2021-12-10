@@ -17,8 +17,9 @@
 
 @media screen and (max-width: 425px) {
     .place__author {
-        max-width: 320px;
+        max-width: 380px;
         grid-area: author;
+        margin: 0 16px;
     }
 }
 

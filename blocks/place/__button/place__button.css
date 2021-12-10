@@ -1,5 +1,5 @@
 .place__button {
-    font-family: Inter;
+    
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -24,6 +24,7 @@
     .place__button {
         margin: 0 16px;
         width: 288px;
+        margin: 0 16px;
     }   
 }
 

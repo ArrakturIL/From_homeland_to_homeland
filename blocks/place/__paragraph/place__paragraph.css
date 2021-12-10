@@ -1,12 +1,10 @@
 .place__paragraph {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
-    overflow: hidden;
 }
 
 .place__paragraph:first-of-type {
@@ -20,6 +18,14 @@
 @media screen and (max-width: 768px) {
     .place__paragraph {
         max-width: 352px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        max-width: 415px;
         font-size: 16px;
         line-height: 163%;
     }

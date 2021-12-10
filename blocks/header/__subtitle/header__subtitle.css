@@ -1,5 +1,4 @@
 .header__subtitle {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -14,11 +13,19 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .header__subtitle{
+        max-width: 415px;
+        font-size: 25px;
+        line-height: 125%;
+        margin: 0 10px 25px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header__subtitle {
         max-width: 288px;
         margin: 0 16px 40px;
-
         font-size: 16px;
         line-height: 125%;
     }

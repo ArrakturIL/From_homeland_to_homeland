@@ -1,5 +1,5 @@
 .place__author-title {
-    font-family: Inter;
+    
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -8,4 +8,10 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
+}
+
+@media screen and (min-width:426px) {
+    .place__author-title:nth-child(2){
+        grid-row: span 3;
+    }
 }
