@@ -2,6 +2,12 @@
     max-width: 984px;
     max-height: 615px;
 }
+@media screen and (max-width: 1024px) {
+    .header__image {
+        max-width: 785px;
+        max-height: 615px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .header__image {

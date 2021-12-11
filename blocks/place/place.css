@@ -15,6 +15,13 @@
 .place:last-of-type {
     margin: 80px 0 0;
 }
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 720px;
+        grid-template-columns: 340px max-content;
+        grid-template-rows: max-content 340px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .place {

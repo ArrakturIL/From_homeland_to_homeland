@@ -13,7 +13,11 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
-
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}
 @media screen and (max-width: 768px) {
     .page {
         max-width: 100vw;
