@@ -1,5 +1,5 @@
 .place__description {
-    grid-row: span 3;
+    grid-row: 2/-1;
 }
 
 @media screen and (max-width: 425px) {

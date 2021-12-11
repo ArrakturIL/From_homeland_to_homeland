@@ -6,7 +6,6 @@
     grid-area: author;
     grid-column: 2;
     grid-row: 1;
-    row-gap: 8px;
 }
 
 @media screen and (max-width: 768px) {
