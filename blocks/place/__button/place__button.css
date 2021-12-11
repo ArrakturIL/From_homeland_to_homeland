@@ -1,31 +1,28 @@
 .place__button {
-    
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     padding: 13px 0px;
     width: 248px;
     max-height: 22px;
     text-align: center;
     display: inline-block;
-    background: #0278FE;
+    background: #0278fe;
     border-radius: 4px;
     transition: background 0.25s linear;
     grid-area: button;
 }
 
 .place__button:hover {
-    background: #0063D2;
+    background: #0063d2;
 }
 
 @media screen and (max-width: 425px) {
     .place__button {
         margin: 0 16px;
         width: 288px;
-        margin: 0 16px;
-    }   
+    }
 }
-
