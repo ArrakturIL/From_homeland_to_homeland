@@ -1,8 +1,7 @@
-@media screena and (min-width: 1281px) {
-    .place__description {
-        grid-row: span 3;
-    }
+.place__description {
+    grid-row: span 3;
 }
+
 @media screen and (max-width: 425px) {
     .place__description {
         max-width: 425px;

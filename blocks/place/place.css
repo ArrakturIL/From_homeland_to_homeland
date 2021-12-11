@@ -36,14 +36,17 @@
             "paragraph"
             "button";
     }
-    .place:nth-child(2) {
-        grid-template-rows: 35px 70px 425px;
-    }
+
     .place:nth-of-type(-n + 3) {
         margin: 0 0 40px 0;
     }
     .place:last-of-type {
         margin-top: 40px;
+    }
+}
+@media screen and (min-width: 321px) {
+    .place:nth-child(2) {
+        grid-template-rows: 35px 70px 425px;
     }
 }
 
@@ -64,5 +67,8 @@
     }
     .place:last-of-type {
         margin-top: 50px;
+    }
+    .place:last-child {
+        grid-template-rows: 68px 67px 320px;
     }
 }

@@ -10,8 +10,3 @@
     color: #AAAAAA;
 }
 
-@media screen and (min-width:426px) {
-    .place__author-title:nth-child(2){
-        grid-row: span 3;
-    }
-}
