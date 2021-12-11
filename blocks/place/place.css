@@ -23,17 +23,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place {
-        max-width: 720px;
-        grid-template-columns: 340px max-content;
-        grid-template-rows: max-content 340px;
-    }
-    .place:last-of-type {
-        margin-top: 80px;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .place {
         max-width: 425px;
@@ -73,8 +62,5 @@
     }
     .place:last-of-type {
         margin-top: 50px;
-    }
-    .place:last-child {
-        grid-template-rows: 68px 67px 320px;
     }
 }
