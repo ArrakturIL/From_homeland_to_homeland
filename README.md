@@ -1,6 +1,6 @@
 # From Homeland to Homeland
 
-![Page Logo](/assets/images/logo.svg) 
+![Page Logo](/images/logo.svg) 
 
 
 ***
