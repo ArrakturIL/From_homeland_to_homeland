@@ -1,4 +1,4 @@
-.header__title {
+.lead__title {
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header__title {
+    .lead__title {
         max-width: 720px;
         margin: 0 24px 32px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .header__title {
+    .lead__title {
         max-width: 415px;
         font-size: 45px;
         line-height: 110%;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header__title {
+    .lead__title {
         max-width: 288px;
         margin: 0 16px 16px;
         font-size: 40px;
