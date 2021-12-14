@@ -19,10 +19,3 @@
 .place__button:hover {
     background: #0063d2;
 }
-
-@media screen and (max-width: 425px) {
-    .place__button {
-        margin: 0 16px;
-        width: 288px;
-    }
-}

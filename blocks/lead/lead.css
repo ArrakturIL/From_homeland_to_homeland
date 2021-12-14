@@ -6,16 +6,17 @@
 
 @media screen and (max-width: 1024px) {
     .lead {
-        max-width: 785px;
+        max-width: 100vw;
         align-self: center;
     }
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .lead {
         max-width: 720px;
     }
 }
+
 
 @media screen and (max-width: 425px) {
     .lead {
@@ -26,6 +27,5 @@
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        padding-top: 20px;
     }
-}
+}*/

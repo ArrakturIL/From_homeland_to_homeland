@@ -1,5 +1,4 @@
 .intro__quote {
-    
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -9,15 +8,14 @@
     grid-area: quote;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
     .intro__quote {
-        max-width: 415px;
+        max-width: 100vw;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__quote {
-        font-size: 24px;
         line-height: 125%;
         max-width: 288px;
     }

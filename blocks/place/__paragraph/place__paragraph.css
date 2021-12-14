@@ -7,11 +7,11 @@
     margin: 0;
 }
 
-.place__paragraph:first-of-type {
+.place__paragraph:first-child {
     margin-bottom: 25px;
 }
 
-.place__paragraph:nth-of-type(3) {
+.place__paragraph:nth-child(3) {
     margin-top: 25px;
 }
 
@@ -19,7 +19,6 @@
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
-        line-height: 163%;
     }
 }
 
@@ -32,6 +31,5 @@
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
-        margin: 0;
     }
 }
