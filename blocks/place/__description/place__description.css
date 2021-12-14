@@ -1,5 +1,12 @@
 .place__description {
     grid-row: 2/-1;
+    grid-area: paragraph;
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .place__description {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 425px) {

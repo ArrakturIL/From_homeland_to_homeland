@@ -1,7 +1,8 @@
 .intro__container {
+    width: 100%;
     max-width: 785px;
     display: grid;
-    grid-template-columns: 785px;
+    grid-template-columns: 1fr;
     grid-template-areas:
         "title"
         "quote"

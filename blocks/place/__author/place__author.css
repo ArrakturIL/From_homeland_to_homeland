@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    grid-area: author;
+   /* grid-area: author;
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,10 +15,9 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 321px) and (max-width: 720px) {
     .place__author {
         max-width: 380px;
-        grid-area: author;
         margin: 0 16px;
     }
 }
@@ -26,7 +25,5 @@
 @media screen and (max-width: 320px) {
     .place__author {
         max-width: 288px;
-        grid-area: author;
-        
     }
 }
