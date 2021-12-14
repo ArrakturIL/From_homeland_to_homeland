@@ -7,21 +7,23 @@
         "title aurhor"
         "img paragraph"
         "button paragraph";
-        margin: 0 0 80px;
+    margin: 0 0 80px;
 }
 
 .place:last-of-type {
     margin: 0;
 }
+
 @media screen and (max-width: 1024px) {
     .place {
-        max-width: 720px;
+        max-width: 100vw;
         grid-template-columns: 340px max-content;
         grid-template-rows: max-content 340px;
     }
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (min-width: 321px) and (max-width: 720px) {
     .place {
         max-width: 100vw;
         grid-template-columns: 100%;
@@ -33,7 +35,7 @@
             "img"
             "paragraph"
             "button";
-            margin: 0 0 40px;
+        margin: 0 0 40px;
     }
 
     .place:last-of-type {
@@ -52,9 +54,9 @@
             "img"
             "paragraph"
             "button";
-            margin: 0 0 50px;
+        margin: 0 0 50px;
     }
-   .place:last-of-type {
+    .place:last-of-type {
         margin: 0;
     }
 }
