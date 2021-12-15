@@ -3,9 +3,9 @@
     max-width: 984px;
     max-height: 615px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__image {
-        max-width: 785px;
+        min-width: 785px;
         max-height: 615px;
     }
 }
