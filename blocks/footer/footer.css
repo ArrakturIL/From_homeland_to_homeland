@@ -1,17 +1,17 @@
 .footer {
     display: flex;
     justify-content: center;
-    margin: 92px auto 0;
+    margin: 92px auto 24px;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: 60px auto 0;
+        margin: 88px auto 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        margin: 64px auto 0;
+        margin: 64px auto 24px;
     }
 }
